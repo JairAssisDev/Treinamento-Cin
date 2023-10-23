@@ -17,6 +17,7 @@ int main(){
     cout << "2 para - " << endl;
     cout << "3 para * " << endl;
     cout << "4 para / " << endl;
+    cout << "5 para resto da divisao " << endl;
     cin >> condicao;
 
     switch(condicao){
@@ -32,6 +33,10 @@ int main(){
         case 4:
         
             cout << "resultado : "<< num1 << " / " << num2 << " = " << num1 / num2 << endl;
+        break;
+        case 5:
+        
+            cout << "resultado : "<< num1 << " / " << num2 << " o resto = " << num1 % num2 << endl;
         break;
     }
 
