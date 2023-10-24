@@ -17,7 +17,7 @@ int main() {
 
     cout << "Fale para seu amigo tampar os olhos e digite a palavra secreta: ";
     cin >> palavra;
-    system("clear");
+    system("cls");
 
     while (palavra[i] != '\0') {
         i++;
@@ -48,7 +48,7 @@ int main() {
             chances--;
         }
         acerto = false;
-        system("clear");
+        system("cls");
     }
     if (acertos == tam) {
         cout << "Você venceu!" << endl;
