@@ -51,7 +51,7 @@ int main() {
         system("cls");
     }
     if (acertos == tam) {
-        cout << "Você venceu!" << endl;
+        cout << "Você venceu!!!" << endl;
     } else {
         cout << "Que pena, você perdeu kkkkk" << endl;
     }
