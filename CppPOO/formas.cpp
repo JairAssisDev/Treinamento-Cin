@@ -11,14 +11,14 @@ class Forma {
 class Circulo : public Forma {
 	public:
 	    void desenhar() override {
-	        cout << "Desenhando um círculo." << endl;
+	        cout << "Desenhando um cÃ­rculo. " << endl;
 	    }
 };
 
 class Retangulo : public Forma {
 	public:
 	    void desenhar() override {
-	        cout << "Desenhando um retângulo." << endl;
+	        cout << "Desenhando um retÃ¢ngulo." << endl;
 	    }
 };
 
